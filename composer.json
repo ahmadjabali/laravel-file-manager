@@ -1,0 +1,24 @@
+{
+    "name": "ahmadjabali/laravel-file-manager",
+    "description": "The Laravel file manager package is a powerful tool designed to handle file management tasks within a Laravel application. It provides a convenient interface for uploading, saving, and deleting files with various extensions. With this package, you can effortlessly manage files stored on your server, offering a seamless experience for both developers and end users.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ahmadjabali\\LaravelFileManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmad Jabali",
+            "email": "ahmadjabali2009@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":"7.2.*",
+        "Carbon/Carbon": "^2.32"
+
+    }
+    
+}
