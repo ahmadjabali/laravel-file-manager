@@ -1,3 +1,5 @@
+[![Cover Image]([https://example.com/your-image-url.png](https://github.com/ahmadjabali/laravel-file-manager/blob/main/thu.png?raw=true))]([https://example.com/your-image-url.png](https://github.com/ahmadjabali/laravel-file-manager/blob/main/thu.png?raw=true))
+
 # Laravel File Manager
 Laravel File Manager is a comprehensive package for file management within Laravel applications. It provides an easy-to-use interface for uploading, saving, and deleting files with different extensions. This package seamlessly integrates with Laravel's file storage system, allowing you to store files in various locations, such as local disks or cloud storage services.
 
