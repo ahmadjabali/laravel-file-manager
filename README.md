@@ -20,7 +20,7 @@ The Laravel File Manager package provides a range of functionalities for file ma
 ### Uploading Files
 To upload a file, you can use the upload method:
 ```php
-productImage= ImageManager::upload('products/', 'png', $request->file('image'));
+productImage= FileManager::upload('products/', 'png', $request->file('image'));
 ```
 
 The upload method will store the file in the configured storage location and return the uploaded file name.
@@ -28,13 +28,13 @@ The upload method will store the file in the configured storage location and ret
 ### Updating Files
 To update a file, you can use the update method:
 ```php
-$product->image = ImageManager::update('products/', $product['image'], 'png', $request->file('image'));
+$product->image = FileManager::update('products/', $product['image'], 'png', $request->file('image'));
 ```
 
 ### Deleting Files
 To delete a file, use the delete method:
 ```php
-ImageManager::delete('/products/' . $product['image']);
+FileManager::delete('/products/' . $product['image']);
 ```
 The delete method will remove the specified file from the storage location.
 
